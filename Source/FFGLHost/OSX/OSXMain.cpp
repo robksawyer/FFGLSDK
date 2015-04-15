@@ -103,7 +103,7 @@ int main(int argc, char **argv)
   
   //load first plugin (does not instantiate!)
   plugin1 = FFGLPluginInstance::New();
-  if (plugin1->Load(FFGLHeatFile)==FF_FAIL)
+  if (plugin1->Load(FFGLMirrorFile)==FF_FAIL)
   {
     FFDebugMessage("Couldn't open plugin 1");
     return 0;
