@@ -1,0 +1,1360 @@
+// !$*UTF8*$!
+{
+	2D2190890AF02BD1007154B7 /* FFGLMirror */ = {
+		activeExec = 0;
+	};
+	2D2190970AF02BD1007154B7 /* FFGLMirror-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 672}";
+		};
+	};
+	2DA285930AEE5D640030A4DD /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = CC89DAC80EF14F4A00BAE759 /* AVFFGLParticles */;
+		addToTargets = (
+			CC89DAC80EF14F4A00BAE759 /* AVFFGLParticles */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = CC1E20CE0CB540DC00DC588E /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					1267,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					1025,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1377,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1337,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 256663370;
+			PBXWorkspaceStateSaveDate = 256663370;
+		};
+		perUserProjectItems = {
+			CC078BC50F4C6D4D00BDA33A /* PBXTextBookmark */ = CC078BC50F4C6D4D00BDA33A /* PBXTextBookmark */;
+			CC078BC60F4C6D4D00BDA33A /* PlistBookmark */ = CC078BC60F4C6D4D00BDA33A /* PlistBookmark */;
+			CC078BC70F4C6D4D00BDA33A /* PlistBookmark */ = CC078BC70F4C6D4D00BDA33A /* PlistBookmark */;
+			CC078BC80F4C6D4D00BDA33A /* PlistBookmark */ = CC078BC80F4C6D4D00BDA33A /* PlistBookmark */;
+			CC078BC90F4C6D4D00BDA33A /* PlistBookmark */ = CC078BC90F4C6D4D00BDA33A /* PlistBookmark */;
+			CC078BCA0F4C6D4D00BDA33A /* PlistBookmark */ = CC078BCA0F4C6D4D00BDA33A /* PlistBookmark */;
+			CC078BCB0F4C6D4D00BDA33A /* PlistBookmark */ = CC078BCB0F4C6D4D00BDA33A /* PlistBookmark */;
+			CC078BCC0F4C6D4D00BDA33A /* PlistBookmark */ = CC078BCC0F4C6D4D00BDA33A /* PlistBookmark */;
+			CC078BCD0F4C6D4D00BDA33A /* PlistBookmark */ = CC078BCD0F4C6D4D00BDA33A /* PlistBookmark */;
+			CC078BCE0F4C6D4D00BDA33A /* PBXBookmark */ = CC078BCE0F4C6D4D00BDA33A /* PBXBookmark */;
+			CC078BCF0F4C6D4D00BDA33A /* PBXTextBookmark */ = CC078BCF0F4C6D4D00BDA33A /* PBXTextBookmark */;
+			CC078BD00F4C6D4D00BDA33A /* PlistBookmark */ = CC078BD00F4C6D4D00BDA33A /* PlistBookmark */;
+			CC078BD10F4C6D4D00BDA33A /* PlistBookmark */ = CC078BD10F4C6D4D00BDA33A /* PlistBookmark */;
+			CC078BD20F4C6D4D00BDA33A /* PlistBookmark */ = CC078BD20F4C6D4D00BDA33A /* PlistBookmark */;
+			CC078BD30F4C6D4D00BDA33A /* PlistBookmark */ = CC078BD30F4C6D4D00BDA33A /* PlistBookmark */;
+			CC078BD40F4C6D4D00BDA33A /* PlistBookmark */ = CC078BD40F4C6D4D00BDA33A /* PlistBookmark */;
+			CC078BD50F4C6D4D00BDA33A /* PlistBookmark */ = CC078BD50F4C6D4D00BDA33A /* PlistBookmark */;
+			CC078BD60F4C6D4D00BDA33A /* PlistBookmark */ = CC078BD60F4C6D4D00BDA33A /* PlistBookmark */;
+			CC078BD70F4C6D4D00BDA33A /* PlistBookmark */ = CC078BD70F4C6D4D00BDA33A /* PlistBookmark */;
+			CC078BD80F4C6D4D00BDA33A /* PlistBookmark */ = CC078BD80F4C6D4D00BDA33A /* PlistBookmark */;
+			CC078BD90F4C6D4D00BDA33A /* PlistBookmark */ = CC078BD90F4C6D4D00BDA33A /* PlistBookmark */;
+			CC66A78C0CD22468001BBC02 /* PBXTextBookmark */ = CC66A78C0CD22468001BBC02 /* PBXTextBookmark */;
+			CC66A78D0CD22468001BBC02 /* PBXTextBookmark */ = CC66A78D0CD22468001BBC02 /* PBXTextBookmark */;
+			CC66A78F0CD22468001BBC02 /* PBXTextBookmark */ = CC66A78F0CD22468001BBC02 /* PBXTextBookmark */;
+			CC66A7BB0CD22942001BBC02 /* PBXTextBookmark */ = CC66A7BB0CD22942001BBC02 /* PBXTextBookmark */;
+			CC66A8AD0CD23901001BBC02 /* PBXTextBookmark */ = CC66A8AD0CD23901001BBC02 /* PBXTextBookmark */;
+			CC66A8AE0CD23901001BBC02 /* PBXTextBookmark */ = CC66A8AE0CD23901001BBC02 /* PBXTextBookmark */;
+			CC66A8AF0CD23901001BBC02 /* PBXTextBookmark */ = CC66A8AF0CD23901001BBC02 /* PBXTextBookmark */;
+			CC66A9960CD24672001BBC02 /* PBXTextBookmark */ = CC66A9960CD24672001BBC02 /* PBXTextBookmark */;
+			CC66A9990CD24672001BBC02 /* PBXTextBookmark */ = CC66A9990CD24672001BBC02 /* PBXTextBookmark */;
+			CC66A99B0CD24672001BBC02 /* PBXTextBookmark */ = CC66A99B0CD24672001BBC02 /* PBXTextBookmark */;
+		};
+		sourceControlManager = CC1E20CD0CB540DC00DC588E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2DA285C80AEE61AF0030A4DD /* FFGLPluginInfo.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 1554}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1739}";
+		};
+	};
+	2DC889D80AF4057200199EB1 /* FFGLTile */ = {
+		activeExec = 0;
+	};
+	2DC889E60AF4057200199EB1 /* FFGLTile-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{358, 8}";
+			sepNavVisRange = "{0, 668}";
+		};
+	};
+	2DC88A380AF40E6300199EB1 /* FFGLShader.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 3024}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{2990, 1305}";
+		};
+	};
+	2DFDB2BB0AF6739E00367FE2 /* FFGLHeat */ = {
+		activeExec = 0;
+	};
+	2DFDB2CB0AF6739E00367FE2 /* FFGLHeat-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{292, 0}";
+			sepNavVisRange = "{0, 668}";
+		};
+	};
+	CC078BC50F4C6D4D00BDA33A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CC66A96F0CD24567001BBC02 /* FFGLKaleidoscope.cpp */;
+		name = "FFGLKaleidoscope.cpp: 21";
+		rLen = 0;
+		rLoc = 769;
+		rType = 0;
+		vrLen = 1872;
+		vrLoc = 247;
+	};
+	CC078BC60F4C6D4D00BDA33A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = CC66A9820CD2457C001BBC02 /* FFGLKaleidoscope-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Projecten/Avenue/code/FFGL_Subversion/FFGL-sdk 1_0/Projects/FFGLPlugins/XCode/FFGLKaleidoscope-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	CC078BC70F4C6D4D00BDA33A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = CC6E8F010CD3697A006E8FFF /* FFGLCircles-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Projecten/Avenue/code/FFGL_Subversion/FFGL-sdk 1_0/Projects/FFGLPlugins/XCode/FFGLCircles-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	CC078BC80F4C6D4D00BDA33A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D6803E570E139C050065B656 /* FFGLBlow-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Projecten/Avenue/code/FFGL_Subversion/FFGL-sdk 1_0/Projects/FFGLPlugins/XCode/FFGLBlow-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	CC078BC90F4C6D4D00BDA33A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = E8D163120C5E09670035D796 /* AVFFGLTrials-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Projecten/Avenue/code/FFGL_Subversion/FFGL-sdk 1_0/Projects/FFGLPlugins/XCode/AVFFGLTrials-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	CC078BCA0F4C6D4D00BDA33A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = CCE2BA570D57C9610055622D /* FFGLDistortion-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Projecten/Avenue/code/FFGL_Subversion/FFGL-sdk 1_0/Projects/FFGLPlugins/XCode/FFGLDistortion-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	CC078BCB0F4C6D4D00BDA33A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 2DFDB2CB0AF6739E00367FE2 /* FFGLHeat-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Projecten/Avenue/code/FFGL_Subversion/FFGL-sdk 1_0/Projects/FFGLPlugins/XCode/FFGLHeat-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	CC078BCC0F4C6D4D00BDA33A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = CC650D3C0D49DC0400CF9F85 /* FFGLHueRotate-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Projecten/Avenue/code/FFGL_Subversion/FFGL-sdk 1_0/Projects/FFGLPlugins/XCode/FFGLHueRotate-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	CC078BCD0F4C6D4D00BDA33A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D6803E850E139E350065B656 /* FFGLLevels-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Projecten/Avenue/code/FFGL_Subversion/FFGL-sdk 1_0/Projects/FFGLPlugins/XCode/FFGLLevels-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	CC078BCE0F4C6D4D00BDA33A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D6803F160E139EAB0065B656 /* FFGLLorez-Info.plist */;
+	};
+	CC078BCF0F4C6D4D00BDA33A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CC66A96F0CD24567001BBC02 /* FFGLKaleidoscope.cpp */;
+		name = "FFGLKaleidoscope.cpp: 21";
+		rLen = 0;
+		rLoc = 769;
+		rType = 0;
+		vrLen = 1872;
+		vrLoc = 247;
+	};
+	CC078BD00F4C6D4D00BDA33A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = CC66A9820CD2457C001BBC02 /* FFGLKaleidoscope-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Projecten/Avenue/code/FFGL_Subversion/FFGL-sdk 1_0/Projects/FFGLPlugins/XCode/FFGLKaleidoscope-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	CC078BD10F4C6D4D00BDA33A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = CCE2BA570D57C9610055622D /* FFGLDistortion-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Projecten/Avenue/code/FFGL_Subversion/FFGL-sdk 1_0/Projects/FFGLPlugins/XCode/FFGLDistortion-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	CC078BD20F4C6D4D00BDA33A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = CC6E8F010CD3697A006E8FFF /* FFGLCircles-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Projecten/Avenue/code/FFGL_Subversion/FFGL-sdk 1_0/Projects/FFGLPlugins/XCode/FFGLCircles-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	CC078BD30F4C6D4D00BDA33A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D6803E570E139C050065B656 /* FFGLBlow-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Projecten/Avenue/code/FFGL_Subversion/FFGL-sdk 1_0/Projects/FFGLPlugins/XCode/FFGLBlow-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	CC078BD40F4C6D4D00BDA33A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = E8D163120C5E09670035D796 /* AVFFGLTrials-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Projecten/Avenue/code/FFGL_Subversion/FFGL-sdk 1_0/Projects/FFGLPlugins/XCode/AVFFGLTrials-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	CC078BD50F4C6D4D00BDA33A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = CCE2BA570D57C9610055622D /* FFGLDistortion-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Projecten/Avenue/code/FFGL_Subversion/FFGL-sdk 1_0/Projects/FFGLPlugins/XCode/FFGLDistortion-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	CC078BD60F4C6D4D00BDA33A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 2DFDB2CB0AF6739E00367FE2 /* FFGLHeat-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Projecten/Avenue/code/FFGL_Subversion/FFGL-sdk 1_0/Projects/FFGLPlugins/XCode/FFGLHeat-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	CC078BD70F4C6D4D00BDA33A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = CC650D3C0D49DC0400CF9F85 /* FFGLHueRotate-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Projecten/Avenue/code/FFGL_Subversion/FFGL-sdk 1_0/Projects/FFGLPlugins/XCode/FFGLHueRotate-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	CC078BD80F4C6D4D00BDA33A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D6803E850E139E350065B656 /* FFGLLevels-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Projecten/Avenue/code/FFGL_Subversion/FFGL-sdk 1_0/Projects/FFGLPlugins/XCode/FFGLLevels-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	CC078BD90F4C6D4D00BDA33A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D6803F160E139EAB0065B656 /* FFGLLorez-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Projecten/Avenue/code/FFGL_Subversion/FFGL-sdk 1_0/Projects/FFGLPlugins/XCode/FFGLLorez-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	CC1E20CD0CB540DC00DC588E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	CC1E20CE0CB540DC00DC588E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CC35A1930CD5E56C0019299A /* AVFFGLZoomMixer.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 2422}}";
+			sepNavSelRange = "{1507, 0}";
+			sepNavVisRange = "{1393, 1349}";
+		};
+	};
+	CC35A1950CD5E5780019299A /* AVFFGLZoomMixer */ = {
+		activeExec = 0;
+	};
+	CC35A1A60CD5E5780019299A /* AVFFGLZoomMixer-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{473, 0}";
+			sepNavVisRange = "{0, 673}";
+		};
+	};
+	CC35A2090CD5F0140019299A /* AVFFGLZoomMixerOut.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 2562}}";
+			sepNavSelRange = "{124, 0}";
+			sepNavVisRange = "{0, 1542}";
+		};
+	};
+	CC35A20B0CD5F01C0019299A /* AVFFGLZoomMixerOut */ = {
+		activeExec = 0;
+	};
+	CC35A21C0CD5F01D0019299A /* AVFFGLZoomMixerOut-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{293, 0}";
+			sepNavVisRange = "{0, 679}";
+		};
+	};
+	CC35A2690CD5F4290019299A /* AVFFGLCubeMixer.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 3584}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1534}";
+		};
+	};
+	CC35A26B0CD5F4330019299A /* AVFFGLCubeMixer */ = {
+		activeExec = 0;
+	};
+	CC35A27C0CD5F4330019299A /* AVFFGLCubeMixer-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{290, 0}";
+			sepNavVisRange = "{0, 673}";
+		};
+	};
+	CC35A28A0CD5F7B10019299A /* AVFFGLRotateXMixer.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 2954}}";
+			sepNavSelRange = "{842, 0}";
+			sepNavVisRange = "{0, 1559}";
+		};
+	};
+	CC35A28C0CD5F7BC0019299A /* AVFFGLRotateXMixer */ = {
+		activeExec = 0;
+	};
+	CC35A29D0CD5F7BC0019299A /* AVFFGLRotateXMixer-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{293, 0}";
+			sepNavVisRange = "{0, 679}";
+		};
+	};
+	CC650D2B0D49DC0400CF9F85 /* FFGLHueRotate */ = {
+		activeExec = 0;
+	};
+	CC650D3C0D49DC0400CF9F85 /* FFGLHueRotate-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1075, 657}}";
+			sepNavSelRange = "{669, 0}";
+			sepNavVisRange = "{0, 669}";
+		};
+	};
+	CC66A7600CD220FB001BBC02 /* FFGLTwirl.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1075, 5348}}";
+			sepNavSelRange = "{9752, 265}";
+			sepNavVisRange = "{9152, 1210}";
+			sepNavVisRect = "{{0, 2563}, {1329, 733}}";
+			sepNavWindowFrame = "{{15, 46}, {1430, 832}}";
+		};
+	};
+	CC66A7610CD220FB001BBC02 /* FFGLTwirl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1329, 770}}";
+			sepNavSelRange = "{1134, 0}";
+			sepNavVisRect = "{{0, 0}, {1329, 733}}";
+		};
+	};
+	CC66A7620CD22109001BBC02 /* FFGLTwirl */ = {
+		activeExec = 0;
+	};
+	CC66A7730CD22109001BBC02 /* FFGLTwirl-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{357, 0}";
+			sepNavVisRange = "{0, 666}";
+		};
+	};
+	CC66A78C0CD22468001BBC02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E8D1618C0C5DF3D30035D796 /* FFGLPosterize.cpp */;
+		name = "FFGLPosterize.cpp: 72";
+		rLen = 0;
+		rLoc = 2888;
+		rType = 0;
+		vrLen = 2775;
+		vrLoc = 1864;
+	};
+	CC66A78D0CD22468001BBC02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CC66A7730CD22109001BBC02 /* FFGLTwirl-Info.plist */;
+		name = "FFGLTwirl-Info.plist: 13";
+		rLen = 0;
+		rLoc = 466;
+		rType = 0;
+		vrLen = 673;
+		vrLoc = 0;
+	};
+	CC66A78F0CD22468001BBC02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CC66A7610CD220FB001BBC02 /* FFGLTwirl.h */;
+		name = "FFGLTwirl.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1150;
+		vrLoc = 0;
+	};
+	CC66A7BB0CD22942001BBC02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CC66A7610CD220FB001BBC02 /* FFGLTwirl.h */;
+		name = "FFGLTwirl.h: m_RadiusLocation";
+		rLen = 0;
+		rLoc = 1134;
+		rType = 0;
+		vrLen = 1155;
+		vrLoc = 0;
+	};
+	CC66A87E0CD237F8001BBC02 /* FFGLFishEye.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 3010}}";
+			sepNavSelRange = "{1476, 0}";
+			sepNavVisRange = "{658, 1790}";
+			sepNavVisRect = "{{0, 361}, {1329, 733}}";
+			sepNavWindowFrame = "{{15, 35}, {972, 993}}";
+		};
+	};
+	CC66A87F0CD237F8001BBC02 /* FFGLFishEye.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{125, 0}";
+			sepNavVisRange = "{0, 1139}";
+			sepNavVisRect = "{{0, 0}, {1329, 733}}";
+		};
+	};
+	CC66A8800CD23813001BBC02 /* FFGLFishEye */ = {
+		activeExec = 0;
+	};
+	CC66A8910CD23813001BBC02 /* FFGLFishEye-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{295, 0}";
+			sepNavVisRange = "{0, 670}";
+		};
+	};
+	CC66A8AD0CD23901001BBC02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CC66A8910CD23813001BBC02 /* FFGLFishEye-Info.plist */;
+		name = "FFGLFishEye-Info.plist: 12";
+		rLen = 0;
+		rLoc = 438;
+		rType = 0;
+		vrLen = 672;
+		vrLoc = 0;
+	};
+	CC66A8AE0CD23901001BBC02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CC66A87E0CD237F8001BBC02 /* FFGLFishEye.cpp */;
+		name = "FFGLFishEye.cpp: 311";
+		rLen = 0;
+		rLoc = 5882;
+		rType = 0;
+		vrLen = 1607;
+		vrLoc = 0;
+	};
+	CC66A8AF0CD23901001BBC02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CC66A87F0CD237F8001BBC02 /* FFGLFishEye.h */;
+		name = "FFGLFishEye.h: 7";
+		rLen = 0;
+		rLoc = 125;
+		rType = 0;
+		vrLen = 1134;
+		vrLoc = 0;
+	};
+	CC66A96F0CD24567001BBC02 /* FFGLKaleidoscope.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1555, 4746}}";
+			sepNavSelRange = "{769, 0}";
+			sepNavVisRange = "{247, 1872}";
+			sepNavVisRect = "{{0, 0}, {1329, 733}}";
+			sepNavWindowFrame = "{{15, 180}, {1430, 993}}";
+		};
+	};
+	CC66A9700CD24567001BBC02 /* FFGLKaleidoscope.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1371, 865}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1179}";
+			sepNavVisRect = "{{0, 0}, {1329, 733}}";
+			sepNavWindowFrame = "{{38, 159}, {1430, 993}}";
+		};
+	};
+	CC66A9710CD2457C001BBC02 /* FFGLKaleidoscope */ = {
+		activeExec = 0;
+	};
+	CC66A9820CD2457C001BBC02 /* FFGLKaleidoscope-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{289, 0}";
+			sepNavVisRange = "{0, 680}";
+		};
+	};
+	CC66A9960CD24672001BBC02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CC66A9700CD24567001BBC02 /* FFGLKaleidoscope.h */;
+		name = "FFGLKaleidoscope.h: 5";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 1179;
+		vrLoc = 0;
+	};
+	CC66A9990CD24672001BBC02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CC66A9820CD2457C001BBC02 /* FFGLKaleidoscope-Info.plist */;
+		name = "FFGLKaleidoscope-Info.plist: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 672;
+		vrLoc = 0;
+	};
+	CC66A99B0CD24672001BBC02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CC66A9700CD24567001BBC02 /* FFGLKaleidoscope.h */;
+		name = "FFGLKaleidoscope.h: 5";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 1179;
+		vrLoc = 0;
+	};
+	CC6E8EDD0CD3694E006E8FFF /* FFGLCircles.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 4690}}";
+			sepNavSelRange = "{7168, 0}";
+			sepNavVisRange = "{6388, 1610}";
+		};
+	};
+	CC6E8EDE0CD3694E006E8FFF /* FFGLCircles.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{155, 0}";
+			sepNavVisRange = "{0, 1139}";
+		};
+	};
+	CC6E8EE00CD36979006E8FFF /* FFGLCircles */ = {
+		activeExec = 0;
+	};
+	CC6E8F010CD3697A006E8FFF /* FFGLCircles-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{286, 0}";
+			sepNavVisRange = "{0, 661}";
+			sepNavWindowFrame = "{{15, 43}, {972, 985}}";
+		};
+	};
+	CC6E90380CD387DE006E8FFF /* FFGLSqeeze.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 4844}}";
+			sepNavSelRange = "{7069, 0}";
+			sepNavVisRange = "{6070, 1631}";
+		};
+	};
+	CC6E90390CD387DE006E8FFF /* FFGLSqeeze.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1126}";
+		};
+	};
+	CC6E903A0CD38805006E8FFF /* FFGLSqeeze */ = {
+		activeExec = 0;
+	};
+	CC6E904B0CD38805006E8FFF /* FFGLSqeeze-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{653, 0}";
+			sepNavVisRange = "{0, 663}";
+		};
+	};
+	CC89DAC40EF14F2A00BAE759 /* AVFFGLParticles.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {907, 4886}}";
+			sepNavSelRange = "{2465, 0}";
+			sepNavVisRect = "{{0, 1137}, {907, 568}}";
+			sepNavWindowFrame = "{{15, 87}, {947, 740}}";
+		};
+	};
+	CC89DAC50EF14F2A00BAE759 /* AVFFGLParticles.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {907, 1134}}";
+			sepNavSelRange = "{369, 0}";
+			sepNavVisRect = "{{0, 0}, {907, 568}}";
+		};
+	};
+	CC89DAC80EF14F4A00BAE759 /* AVFFGLParticles */ = {
+		activeExec = 0;
+	};
+	CC89DADB0EF14F4A00BAE759 /* AVFFGLParticles-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {907, 568}}";
+			sepNavSelRange = "{664, 0}";
+			sepNavVisRect = "{{0, 0}, {907, 568}}";
+		};
+	};
+	CCAA51CD0DE1688C00485A26 /* FFGLExposure */ = {
+		activeExec = 0;
+	};
+	CCAA51E00DE1688C00485A26 /* FFGLExposure-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1555, 957}}";
+			sepNavSelRange = "{358, 0}";
+			sepNavVisRange = "{0, 663}";
+		};
+	};
+	CCAA51E20DE169B000485A26 /* FFGLExposure.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1555, 3654}}";
+			sepNavSelRange = "{430, 4}";
+			sepNavVisRange = "{0, 1573}";
+		};
+	};
+	CCAA51FB0DE16AB800485A26 /* FFGLFilmBleach */ = {
+		activeExec = 0;
+	};
+	CCAA520C0DE16AB800485A26 /* FFGLFilmBleach-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1555, 854}}";
+			sepNavSelRange = "{360, 0}";
+			sepNavVisRange = "{0, 665}";
+		};
+	};
+	CCAA520E0DE16B1500485A26 /* FFGLFilmBleach.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1555, 3164}}";
+			sepNavSelRange = "{85, 0}";
+			sepNavVisRange = "{0, 1739}";
+		};
+	};
+	CCAA521D0DE16B9500485A26 /* FFGLSlide */ = {
+		activeExec = 0;
+	};
+	CCAA522E0DE16B9500485A26 /* FFGLSlide-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1555, 854}}";
+			sepNavSelRange = "{355, 0}";
+			sepNavVisRange = "{0, 660}";
+		};
+	};
+	CCAA52300DE16C3F00485A26 /* FFGLSlide.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1555, 3094}}";
+			sepNavSelRange = "{995, 0}";
+			sepNavVisRange = "{0, 1621}";
+		};
+	};
+	CCAA52310DE16C3F00485A26 /* FFGLSlide.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1555, 854}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1131}";
+		};
+	};
+	CCD2876A0DE0C45F00BDEF31 /* FFGLWobble */ = {
+		activeExec = 0;
+	};
+	CCD2877D0DE0C45F00BDEF31 /* FFGLWobble-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1075, 657}}";
+			sepNavSelRange = "{354, 0}";
+			sepNavVisRange = "{0, 659}";
+		};
+	};
+	CCD2877F0DE0C52300BDEF31 /* FFGLWobble.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1555, 4200}}";
+			sepNavSelRange = "{524, 4}";
+			sepNavVisRange = "{0, 1847}";
+		};
+	};
+	CCDB7BF40CE4699B000DD2D9 /* AVFFGLRotateYMixer.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 2940}}";
+			sepNavSelRange = "{515, 4}";
+			sepNavVisRange = "{0, 1559}";
+		};
+	};
+	CCDB7BF60CE469AF000DD2D9 /* AVFFGLRotateYMixer */ = {
+		activeExec = 0;
+	};
+	CCDB7C170CE469B0000DD2D9 /* AVFFGLRotateYMixer-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{374, 0}";
+			sepNavVisRange = "{0, 679}";
+		};
+	};
+	CCE2BA440D57C9610055622D /* FFGLDistortion */ = {
+		activeExec = 0;
+	};
+	CCE2BA570D57C9610055622D /* FFGLDistortion-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1075, 658}}";
+			sepNavSelRange = "{362, 0}";
+			sepNavVisRange = "{0, 667}";
+		};
+	};
+	CCE2BA5F0D57CAF30055622D /* FFGLDistortion.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1555, 3010}}";
+			sepNavSelRange = "{1194, 0}";
+			sepNavVisRange = "{2303, 1969}";
+		};
+	};
+	CCE2BA600D57CAF30055622D /* FFGLDistortion.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1075, 770}}";
+			sepNavSelRange = "{759, 0}";
+			sepNavVisRange = "{0, 1086}";
+			sepNavWindowFrame = "{{15, 45}, {1430, 833}}";
+		};
+	};
+	D67940AC0D8E92230001216E /* FFGLAddMaskUtility */ = {
+		activeExec = 0;
+	};
+	D67940C30D8E939E0001216E /* FFGLRGBASwitch */ = {
+		activeExec = 0;
+	};
+	D67940EE0D8E94E00001216E /* AVFFGLPixelHighPass */ = {
+		activeExec = 0;
+	};
+	D67940FF0D8E94E00001216E /* AVFFGLPixelHighPass-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1172, 860}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{386, 295}";
+		};
+	};
+	D67EE2BB0E5EC94B009E9865 /* FFGLAdd50 */ = {
+		activeExec = 0;
+	};
+	D67EE2CE0E5EC99C009E9865 /* FFGLLighten50 */ = {
+		activeExec = 0;
+	};
+	D6803E460E139C050065B656 /* FFGLBlow */ = {
+		activeExec = 0;
+	};
+	D6803E600E139CE00065B656 /* FFGLBlur */ = {
+		activeExec = 0;
+	};
+	D6803E740E139E350065B656 /* FFGLLevels */ = {
+		activeExec = 0;
+	};
+	D6803F050E139EAB0065B656 /* FFGLLorez */ = {
+		activeExec = 0;
+	};
+	D6ABD2750E389A100033763F /* FFGLBurn */ = {
+		activeExec = 0;
+	};
+	D6ABD28A0E389A800033763F /* FFGLDifferenceInverse */ = {
+		activeExec = 0;
+	};
+	D6ABD29D0E389ADE0033763F /* FFGLDodge */ = {
+		activeExec = 0;
+	};
+	D6ABD2B00E389B2C0033763F /* FFGLHardLight */ = {
+		activeExec = 0;
+	};
+	D6ABD2C30E389BA20033763F /* FFGLSoftLight */ = {
+		activeExec = 0;
+	};
+	D6ABD2D90E389C2A0033763F /* FFGLLumaKeyInverse */ = {
+		activeExec = 0;
+	};
+	D6ABD3070E38A0680033763F /* AVFFGLLumaWaves.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {907, 6524}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {907, 568}}";
+		};
+	};
+	D6ABD3150E38A0930033763F /* AVFFGLWipeRadial */ = {
+		activeExec = 0;
+	};
+	D6ABD35D0E38AE240033763F /* AVFFGLLumaWaves */ = {
+		activeExec = 0;
+	};
+	D6ABD3700E38AE740033763F /* AVFFGLPointCloud */ = {
+		activeExec = 0;
+	};
+	D6ABD3830E38AEB50033763F /* AVFFGLVertexControl */ = {
+		activeExec = 0;
+	};
+	D6ABD3970E38AF100033763F /* FFGLLumaDisplace */ = {
+		activeExec = 0;
+	};
+	D6CF49BA0DDC87CD00E4D021 /* AVFFGLSolidColor */ = {
+		activeExec = 0;
+	};
+	D6CF49E80DDC89C500E4D021 /* AVFFGLFreeze */ = {
+		activeExec = 0;
+	};
+	E882FB410F25ECA50048D6E3 /* AVFFGLAudioToVertex */ = {
+		activeExec = 0;
+	};
+	E89A40150F24B26F00789B5B /* AVFFGLBrightnessContrastAudio */ = {
+		activeExec = 0;
+	};
+	E8C7EE340CC917F1000716F4 /* FFGLScreen */ = {
+		activeExec = 0;
+	};
+	E8C7EE450CC917F1000716F4 /* FFGLScreen-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{294, 0}";
+			sepNavVisRange = "{0, 672}";
+		};
+	};
+	E8C7EE460CC91809000716F4 /* FFGLMultiply */ = {
+		activeExec = 0;
+	};
+	E8C7EE560CC91809000716F4 /* FFGLMultiply-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{296, 0}";
+			sepNavVisRange = "{0, 676}";
+		};
+	};
+	E8C7EE570CC91816000716F4 /* FFGLSubtract */ = {
+		activeExec = 0;
+	};
+	E8C7EE670CC91816000716F4 /* FFGLSubtract-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{296, 0}";
+			sepNavVisRange = "{0, 676}";
+		};
+	};
+	E8D1614F0C5DF3D30035D796 /* AVFFGLFlip.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 1946}}";
+			sepNavSelRange = "{1191, 0}";
+			sepNavVisRange = "{713, 1763}";
+		};
+	};
+	E8D161550C5DF3D30035D796 /* parameterObject.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 1008}}";
+			sepNavSelRange = "{64, 22}";
+			sepNavVisRange = "{0, 1729}";
+		};
+	};
+	E8D1615D0C5DF3D30035D796 /* AVFFGLTrails.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 3990}}";
+			sepNavSelRange = "{2386, 0}";
+			sepNavVisRange = "{1540, 1646}";
+		};
+	};
+	E8D1617A0C5DF3D30035D796 /* FFGLDarken.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 3122}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2063}";
+		};
+	};
+	E8D161800C5DF3D30035D796 /* FFGLHeat.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {14816, 2828}}";
+			sepNavSelRange = "{4550, 0}";
+			sepNavVisRange = "{1519, 3815}";
+		};
+	};
+	E8D161810C5DF3D30035D796 /* FFGLHeat.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1179, 770}}";
+			sepNavSelRange = "{1189, 0}";
+			sepNavVisRange = "{687, 518}";
+		};
+	};
+	E8D161890C5DF3D30035D796 /* FFGLMirror.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 1792}}";
+			sepNavSelRange = "{1134, 0}";
+			sepNavVisRange = "{165, 1684}";
+		};
+	};
+	E8D1618C0C5DF3D30035D796 /* FFGLPosterize.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1172, 4256}}";
+			sepNavSelRange = "{5649, 0}";
+			sepNavVisRange = "{5296, 1340}";
+			sepNavVisRect = "{{0, 1145}, {1329, 733}}";
+			sepNavWindowFrame = "{{15, 46}, {972, 832}}";
+		};
+	};
+	E8D1618D0C5DF3D30035D796 /* FFGLPosterize.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1150}";
+		};
+	};
+	E8D161920C5DF3D30035D796 /* FFGLSphere.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {907, 2884}}";
+			sepNavSelRange = "{2542, 298}";
+			sepNavVisRect = "{{0, 1218}, {907, 568}}";
+		};
+	};
+	E8D161930C5DF3D30035D796 /* FFGLSphere.H */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {907, 840}}";
+			sepNavSelRange = "{977, 0}";
+			sepNavVisRect = "{{0, 140}, {907, 568}}";
+		};
+	};
+	E8D162270C5DF9A10035D796 /* AVFFGLAddSubtract */ = {
+		activeExec = 0;
+	};
+	E8D162360C5DF9A10035D796 /* AVFFGLAddSubtract-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{363, 0}";
+			sepNavVisRange = "{0, 686}";
+		};
+	};
+	E8D1624C0C5DFA290035D796 /* AVFFGLColorize */ = {
+		activeExec = 0;
+	};
+	E8D1625D0C5DFA290035D796 /* AVFFGLColorize-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{360, 0}";
+			sepNavVisRange = "{0, 680}";
+		};
+	};
+	E8D1627B0C5DFBA50035D796 /* AVFFGLBrightnessContrast */ = {
+		activeExec = 0;
+	};
+	E8D1628C0C5DFBA50035D796 /* AVFFGLBrightnessContrast-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{370, 0}";
+			sepNavVisRange = "{0, 700}";
+		};
+	};
+	E8D162920C5DFCB40035D796 /* AVFFGLEdgeDetect */ = {
+		activeExec = 0;
+	};
+	E8D162A30C5DFCB40035D796 /* AVFFGLEdgeDetect-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{362, 0}";
+			sepNavVisRange = "{0, 684}";
+		};
+	};
+	E8D162A60C5DFD050035D796 /* AVFFGLFlip */ = {
+		activeExec = 0;
+	};
+	E8D162B70C5DFD050035D796 /* AVFFGLFlip-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{355, 0}";
+			sepNavVisRange = "{0, 670}";
+		};
+	};
+	E8D162C40C5E08BE0035D796 /* AVFFGLHistory */ = {
+		activeExec = 0;
+	};
+	E8D162D30C5E08BF0035D796 /* AVFFGLHistory-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{359, 0}";
+			sepNavVisRange = "{0, 678}";
+		};
+	};
+	E8D162D90C5E09160035D796 /* AVFFGLInvertRGB */ = {
+		activeExec = 0;
+	};
+	E8D162EA0C5E09160035D796 /* AVFFGLInvertRGB-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{361, 0}";
+			sepNavVisRange = "{0, 682}";
+		};
+	};
+	E8D162ED0C5E09440035D796 /* AVFFGLNoise */ = {
+		activeExec = 0;
+	};
+	E8D162FE0C5E09440035D796 /* AVFFGLNoise-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{349, 11}";
+			sepNavVisRange = "{0, 674}";
+		};
+	};
+	E8D163010C5E09670035D796 /* AVFFGLTrails */ = {
+		activeExec = 0;
+	};
+	E8D163120C5E09670035D796 /* AVFFGLTrials-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{350, 11}";
+			sepNavVisRange = "{0, 676}";
+		};
+	};
+	E8D1631B0C5E09A10035D796 /* pluginUniqueIDs.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {907, 3514}}";
+			sepNavSelRange = "{1004, 13}";
+			sepNavVisRange = "{436, 1023}";
+			sepNavVisRect = "{{0, 640}, {907, 568}}";
+			sepNavWindowFrame = "{{15, 43}, {972, 985}}";
+		};
+	};
+	E8D1631E0C5E09F00035D796 /* AVFFGLTreshHold */ = {
+		activeExec = 0;
+	};
+	E8D1632F0C5E09F00035D796 /* AVFFGLThreshHold-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{299, 0}";
+			sepNavVisRange = "{0, 682}";
+		};
+	};
+	E8D163320C5E0A1B0035D796 /* AVFFGLWipeDown */ = {
+		activeExec = 0;
+	};
+	E8D163410C5E0A1B0035D796 /* AVFFGLWipeDown-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{298, 0}";
+			sepNavVisRange = "{0, 680}";
+		};
+	};
+	E8D163780C5E0AB80035D796 /* AVFFGLWipeLeft */ = {
+		activeExec = 0;
+	};
+	E8D163880C5E0AB80035D796 /* AVFFGLWipeLeft-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{298, 0}";
+			sepNavVisRange = "{0, 680}";
+		};
+	};
+	E8D1638B0C5E0AE00035D796 /* AVFFGLWipeRight */ = {
+		activeExec = 0;
+	};
+	E8D1639B0C5E0AE10035D796 /* AVFFGLWipeRight-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{353, 11}";
+			sepNavVisRange = "{0, 682}";
+		};
+	};
+	E8D1639C0C5E0AE50035D796 /* AVFFGLWipeUp */ = {
+		activeExec = 0;
+	};
+	E8D163AC0C5E0AE50035D796 /* AVFFGLWipeUp-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{296, 0}";
+			sepNavVisRange = "{0, 676}";
+		};
+	};
+	E8D163AF0C5E0B450035D796 /* FFGLAlpha */ = {
+		activeExec = 0;
+	};
+	E8D163C00C5E0B450035D796 /* FFGLAlpha-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{293, 0}";
+			sepNavVisRange = "{0, 670}";
+		};
+	};
+	E8D163C10C5E0B530035D796 /* FFGLAdd */ = {
+		activeExec = 0;
+	};
+	E8D163D20C5E0B540035D796 /* FFGLAdd-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{291, 0}";
+			sepNavVisRange = "{0, 666}";
+		};
+	};
+	E8D163D70C5E0BAC0035D796 /* FFGLCubes */ = {
+		activeExec = 0;
+	};
+	E8D163E60C5E0BAC0035D796 /* FFGLCubes-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{293, 0}";
+			sepNavVisRange = "{0, 670}";
+		};
+	};
+	E8D163E70C5E0BBC0035D796 /* FFGLDarken */ = {
+		activeExec = 0;
+	};
+	E8D163F80C5E0BBC0035D796 /* FFGLDarken-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {913, 857}}";
+			sepNavSelRange = "{294, 0}";
+			sepNavVisRange = "{0, 672}";
+			sepNavWindowFrame = "{{15, 43}, {972, 985}}";
+		};
+	};
+	E8D163F90C5E0BC90035D796 /* FFGLDifference */ = {
+		activeExec = 0;
+	};
+	E8D1640A0C5E0BC90035D796 /* FFGLDifference-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{298, 0}";
+			sepNavVisRange = "{0, 680}";
+		};
+	};
+	E8D164110C5E0C2A0035D796 /* FFGLLighten */ = {
+		activeExec = 0;
+	};
+	E8D164220C5E0C2A0035D796 /* FFGLLighten-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{295, 0}";
+			sepNavVisRange = "{0, 674}";
+			sepNavWindowFrame = "{{15, 43}, {972, 985}}";
+		};
+	};
+	E8D164230C5E0C350035D796 /* FFGLLumaKey */ = {
+		activeExec = 0;
+	};
+	E8D164340C5E0C360035D796 /* FFGLLumaKey-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{673, 0}";
+			sepNavVisRange = "{0, 674}";
+		};
+	};
+	E8D164370C5E0C7C0035D796 /* FFGLPosterize */ = {
+		activeExec = 0;
+	};
+	E8D164480C5E0C7C0035D796 /* FFGLPosterize-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{351, 11}";
+			sepNavVisRange = "{0, 678}";
+		};
+	};
+	E8D164490C5E0C870035D796 /* FFGLSaturation */ = {
+		activeExec = 0;
+	};
+	E8D1645A0C5E0C880035D796 /* FFGLSaturation-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{298, 0}";
+			sepNavVisRange = "{0, 680}";
+		};
+	};
+	E8D1645B0C5E0CEE0035D796 /* FFGLSphere */ = {
+		activeExec = 0;
+	};
+	E8D1646B0C5E0CEF0035D796 /* FFGLSphere-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{294, 0}";
+			sepNavVisRange = "{0, 672}";
+		};
+	};
+	E8D766E70C91955C0089BAEB /* AVFFGLFeedback */ = {
+		activeExec = 0;
+	};
+	E8D767050C91955D0089BAEB /* AVFFGLFeedback-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{298, 0}";
+			sepNavVisRange = "{0, 680}";
+		};
+	};
+	E8DA2D140CB2842F006976BC /* FFGLLumaIsAlpha */ = {
+		activeExec = 0;
+	};
+	E8DA2D350CB2842F006976BC /* FFGLLumaIsAlpha-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{299, 0}";
+			sepNavVisRange = "{0, 682}";
+			sepNavWindowFrame = "{{15, 43}, {972, 985}}";
+		};
+	};
+	E8DD23FB0CB25CD700E60279 /* AVFFGLCreateAlphaChannel */ = {
+		activeExec = 0;
+	};
+	E8DD241C0CB25CD700E60279 /* AVFFGLCreateAlphaChannel-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{370, 0}";
+			sepNavVisRange = "{0, 700}";
+		};
+	};
+	E8DD24310CB25D7A00E60279 /* AVFFGLShowAlphaChannel */ = {
+		activeExec = 0;
+	};
+	E8DD24420CB25D7A00E60279 /* AVFFGLShowAlphaChannel-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{368, 0}";
+			sepNavVisRange = "{0, 696}";
+		};
+	};
+	E8E1B8720C904BE60062A68E /* AVFFGL3dPixels */ = {
+		activeExec = 0;
+	};
+	E8E1B8900C904BE60062A68E /* AVFFGL3dPixels-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{298, 0}";
+			sepNavVisRange = "{0, 680}";
+		};
+	};
+	E8EC5CA30C7C57CB00CCA2BC /* AVFFGLGradients */ = {
+		activeExec = 0;
+	};
+	E8EC5CB40C7C57CB00CCA2BC /* AVFFGLGradients-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 851}}";
+			sepNavSelRange = "{299, 0}";
+			sepNavVisRange = "{0, 682}";
+		};
+	};
+}

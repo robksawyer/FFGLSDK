@@ -1,0 +1,15 @@
+////sources
+FFGLStroboscope				MSTR
+FFGLStatic					MSTS
+
+////fx
+FFGLStroboscopeEffect		MSFX
+AVFFGLShiftRGB				A153
+FFGLStatic					MSTF
+FFGLBarshift				MBSH
+FFGLStopMotion				MSTP
+FFGLEdgeDetection			MEDG
+FFGLWaveWarp				MWWP
+FFGLChromaKey				MCKY
+FFGLPolarCoordinates		MPOL
+FFGLColorWrapMixer		MCWP
