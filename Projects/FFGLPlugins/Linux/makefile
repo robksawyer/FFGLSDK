@@ -3,37 +3,56 @@ DIR_COMMON = ../../../Source/Common
 
 DEBUG = 0
 
-FFGLBRIGHTNESS_SRCS = $(DIR_SRC)/FFGLBrightness/FFGLBrightness.cpp
-FFGLTILE_SRCS = $(DIR_SRC)/FFGLTile/FFGLTile.cpp
-FFGLHEAT_SRCS = $(DIR_SRC)/FFGLHeat/FFGLHeat.cpp
-FFGLLUMAKEY_SRCS = $(DIR_SRC)/FFGLLumaKey/FFGLLumaKey.cpp
-FFGLGRADIENTS_SRCS = $(DIR_SRC)/FFGLGradients/FFGLGradients.cpp
-FFGLTIME_SRCS = $(DIR_SRC)/FFGLTime/FFGLTime.cpp
+FFGLBARSHIFT_SRCS = $(DIR_SRC)/FFGLBarshift/FFGLBarshift.cpp
+FFGLCHROMAKEY_SRCS = $(DIR_SRC)/FFGLChromaKey/FFGLChromaKey.cpp
+FFGLEDGEDETECTION_SRCS = $(DIR_SRC)/FFGLEdgeDetection/FFGLEdgeDetection.cpp
+FFGLPOLARCOORDINATES_SRCS = $(DIR_SRC)/FFGLPolarCoordinates/FFGLPolarCoordinates.cpp
+FFGLSTATIC_SRCS = $(DIR_SRC)/FFGLStatic/FFGLStatic.cpp
+FFGLSTATICSOURCE_SRCS = $(DIR_SRC)/FFGLStatic-source/FFGLStaticSource.cpp
+FFGLSTOPMOTION_SRCS = $(DIR_SRC)/FFGLStopMotion/FFGLStopMotion.cpp
+FFGLSTROBOSCOPE_SRCS = $(DIR_SRC)/FFGLStroboscope/FFGLStroboscope.cpp
+FFGLSTROBOSCOPEFX_SRCS = $(DIR_SRC)/FFGLStroboscope-effect/FFGLStroboscopeEffect.cpp
+FFGLWAVEWARP_SRCS = $(DIR_SRC)/FFGLWaveWarp/FFGLWaveWarp.cpp
 
-FFGLBRIGHTNESS_OBJS = $(notdir $(FFGLBRIGHTNESS_SRCS:%cpp=%o))
-FFGLTILE_OBJS = $(notdir $(FFGLTILE_SRCS:%cpp=%o))
-FFGLHEAT_OBJS = $(notdir $(FFGLHEAT_SRCS:%cpp=%o))
-FFGLLUMAKEY_OBJS = $(notdir $(FFGLLUMAKEY_SRCS:%cpp=%o))
-FFGLGRADIENTS_OBJS = $(notdir $(FFGLGRADIENTS_SRCS:%cpp=%o))
-FFGLTIME_OBJS = $(notdir $(FFGLTIME_SRCS:%cpp=%o))
+FFGLBARSHIFT_OBJS = $(notdir $(FFGLBARSHIFT_SRCS:%cpp=%o))
+FFGLCHROMAKEY_OBJS = $(notdir $(FFGLCHROMAKEY_SRCS:%cpp=%o))
+FFGLEDGEDETECTION_OBJS = $(notdir $(FFGLEDGEDETECTION_SRCS:%cpp=%o))
+FFGLPOLARCOORDINATES_OBJS = $(notdir $(FFGLPOLARCOORDINATES_SRCS:%cpp=%o))
+FFGLSTATIC_OBJS = $(notdir $(FFGLSTATIC_SRCS:%cpp=%o))
+FFGLSTATICSOURCE_OBJS = $(notdir $(FFGLSTATICSOURCE_SRCS:%cpp=%o))
+FFGLSTOPMOTION_OBJS = $(notdir $(FFGLSTOPMOTION_SRCS:%cpp=%o))
+FFGLSTROBOSCOPE_OBJS = $(notdir $(FFGLSTROBOSCOPE_SRCS:%cpp=%o))
+FGLSTROBOSCOPEFX_OBJS = $(notdir $(FFGLSTROBOSCOPEFX_SRCS:%cpp=%o))
+FFFGLWAVEWARP_OBJS = $(notdir $(FFGLWAVEWARP_SRCS:%cpp=%o))
 
 COMMON_SRCS = $(DIR_SRC)/FFGLPluginInfo.cpp $(DIR_SRC)/FFGLPluginInfoData.cpp \
 	$(DIR_SRC)/FFGL.cpp $(DIR_COMMON)/FFGLShader.cpp \
 	$(DIR_COMMON)/FFGLExtensions.cpp \
-	$(DIR_SRC)/FFGLPluginManager.cpp $(DIR_SRC)/FFGLPluginSDK.cpp
+	$(DIR_SRC)/FFGLPluginManager.cpp $(DIR_SRC)/FFGLPluginSDK.cpp \
+	$(DIR_SRC)/../Common/utilities.cpp
 
 COMMON_OBJS = $(notdir $(COMMON_SRCS:%cpp=%o))
 
-OBJS = $(COMMON_OBJS) $(FFGLBRIGHTNESS_OBJS) $(FFGLTILE_OBJS) $(FFGLHEAT_OBJS) \
-	$(FFGLLUMAKEY_OBJS) $(FFGLGRADIENTS_OBJS) $(FFGLTIME_OBJS)
+OBJS = $(COMMON_OBJS) \
+	$(FFGLBARSHIFT_OBJS) $(FFGLCHROMAKEY_OBJS) $(FFGLEDGEDETECTION_OBJS) \
+	$(FFGLPOLARCOORDINATES_OBJS) $(FFGLSTATIC_OBJS) \
+	$(FFGLSTATICSOURCE_OBJS) $(FFGLSTOPMOTION_OBJS) \
+	$(FFGLSTROBOSCOPE_OBJS) $(FFGLSTROBOSCOPEFX_OBJS) $(FFGLWAVEWARP_OBJS)
 
-vpath %.cpp $(DIR_SRC)/FFGLBrightness:$(DIR_SRC)/FFGLTile:$(DIR_SRC)/FFGLHeat: \
-	$(DIR_SRC)/FFGLLumaKey:$(DIR_SRC)/FFGLGradients: \
-	$(DIR_SRC)/FFGLTime:$(DIR_SRC):$(DIR_COMMON)
+vpath %.cpp $(DIR_SRC)/FFGLBarshift:$(DIR_SRC)/FFGLChromaKey:\
+	$(DIR_SRC)/FFGLEdgeDetection:\
+	$(DIR_SRC)/FFGLPolarCoordinates:\
+	$(DIR_SRC)/FFGLStatic:\
+	$(DIR_SRC)/FFGLStatic-source:\
+	$(DIR_SRC)/FFGLStopMotion:\
+	$(DIR_SRC)/FFGLStroboscope:\
+	$(DIR_SRC)/FFGLStroboscope-effect:\
+	$(DIR_SRC)/FFGLWaveWarp:\
+	$(DIR_SRC):$(DIR_COMMON)
 
 CCPP = @g++
 CPPFLAGS = -Wall -Wno-unknown-pragmas -pedantic -fPIC \
-	-I../../../Include
+	-I../../../Include -I../../../Source/Common
 
 CSHLIB = $(CCPP) $(CPPFLAGS) -shared -Wl,-soname,$@ -o $@ $^ \
 	-lc -lX11 -lGL -lglut
@@ -44,32 +63,42 @@ else
 	CPPFLAGS += -g0 -O3
 endif
 
-all: FFGLBrightness.so FFGLTile.so FFGLHeat.so FFGLLumaKey.so FFGLGradients.so \
-	FFGLTime.so
+all: FFGLBarshift.so FFGLChromaKey.so FFGLEdgeDetection.so FFGLPolarCoordinates.so FFGLStatic.so FFGLStaticSource.so FFGLStopMotion.so FFGLStroboscope.so FFGLStroboscopeEffect.so FFGLWaveWarp.so
 
 %.o: %.cpp
 	$(CCPP) -c $(CPPFLAGS) -o $@ $<
 
-FFGLBrightness.so: $(FFGLBRIGHTNESS_OBJS) $(COMMON_OBJS)
+FFGLBarshift.so: $(FFGLBARSHIFT_OBJS) $(COMMON_OBJS)
 	$(CSHLIB)
 
-FFGLTile.so: $(FFGLTILE_OBJS) $(COMMON_OBJS)
+FFGLChromaKey.so: $(FFGLCHROMAKEY_OBJS) $(COMMON_OBJS)
 	$(CSHLIB)
 
-FFGLHeat.so: $(FFGLHEAT_OBJS) $(COMMON_OBJS)
+FFGLEdgeDetection.so: $(FFGLEDGEDETECTION_OBJS) $(COMMON_OBJS)
 	$(CSHLIB)
 
-FFGLLumaKey.so: $(FFGLLUMAKEY_OBJS) $(COMMON_OBJS)
+FFGLPolarCoordinates.so: $(FFGLPOLARCOORDINATES_OBJS) $(COMMON_OBJS)
 	$(CSHLIB)
 
-FFGLGradients.so: $(FFGLGRADIENTS_OBJS) $(COMMON_OBJS)
+FFGLStatic.so: $(FFGLSTATIC_OBJS) $(COMMON_OBJS)
 	$(CSHLIB)
 
-FFGLTime.so: $(FFGLTIME_OBJS) $(COMMON_OBJS)
+FFGLStaticSource.so: $(FFGLSTATICSOURCE_OBJS) $(COMMON_OBJS)
+	$(CSHLIB)
+
+FFGLStopMotion.so: $(FFGLSTOPMOTION_OBJS) $(COMMON_OBJS)
+	$(CSHLIB)
+
+FFGLStroboscope.so: $(FFGLSTROBOSCOPE_OBJS) $(COMMON_OBJS)
+	$(CSHLIB)
+
+FFGLStroboscopeEffect.so: $(FFGLSTROBOSCOPEFX_OBJS) $(COMMON_OBJS)
+	$(CSHLIB)
+
+FFGLWaveWarp.so: $(FFGLWAVEWARP_OBJS) $(COMMON_OBJS)
 	$(CSHLIB)
 
 .PHONY: clean
 
 clean:
 	-rm -rf $(OBJS) *.so
-

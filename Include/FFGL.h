@@ -53,6 +53,7 @@
 
 //include the appropriate OpenGL headers for the compiler
 
+
 #ifdef _WIN32
 
 #include <windows.h>
@@ -79,6 +80,10 @@
 #endif
 #endif
 #endif
+
+
+
+
 
 /////////////////////////////////////////////////////////////////////////////
 //FreeFrameGL defines numerically extend FreeFrame defines (see FreeFrame.h)
@@ -108,6 +113,7 @@ typedef struct FFGLTextureStructTag
   DWORD HardwareWidth, HardwareHeight;
   GLuint Handle; //the actual texture handle, from glGenTextures()
 } FFGLTextureStruct;
+
 
 // ProcessOpenGLStruct
 typedef struct ProcessOpenGLStructTag {

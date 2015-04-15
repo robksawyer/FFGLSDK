@@ -19,7 +19,7 @@ public:
     gettimeofday(&tv, NULL);
     start_time = tv.tv_sec + tv.tv_usec/1000000.0;
   }
-
+  
   double GetElapsedTime()
   {
     timeval tv;
@@ -27,7 +27,7 @@ public:
     double curtime = tv.tv_sec + tv.tv_usec/1000000.0;
     return (curtime - start_time);
   }
-
+  
   virtual ~LinuxTimer()
   {}
 };

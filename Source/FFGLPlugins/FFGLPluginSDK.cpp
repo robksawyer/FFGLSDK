@@ -22,7 +22,7 @@
 #include <memory.h>
 
 // Buffer used by the default implementation of getParameterDisplay
-static char s_DisplayValue[5];
+
 
 
 ////////////////////////////////////////////////////////
@@ -56,10 +56,11 @@ char* CFreeFrameGLPlugin::GetParameterDisplay(DWORD dwIndex)
     }
 		else
     {
+			char s_DisplayValue[15];
 			float fValue;
 			memcpy(&fValue, &dwValue, 4);
-			memset(s_DisplayValue, 0, 5);
-			sprintf(s_DisplayValue, "%f", fValue);
+			memset(s_DisplayValue, 0, 15);
+			sprintf(s_DisplayValue, "%1.2f", fValue);
 			return s_DisplayValue;
 		}
 	}

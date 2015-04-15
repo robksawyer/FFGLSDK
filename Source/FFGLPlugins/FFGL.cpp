@@ -257,8 +257,23 @@ DWORD instantiateGL(const FFGLViewportStruct *pGLViewport)
 		void* pValue = s_pPrototype->GetParamDefault(DWORD(i));
 		SetParameterStruct ParamStruct;
 		ParamStruct.ParameterNumber = DWORD(i);
-		memcpy(&ParamStruct.NewParameterValue, pValue, 4);
-		dwRet = pInstance->SetParameter(&ParamStruct);
+    
+//#ifdef FFGLTEXTFIX
+    if( s_pPrototype->GetParamType(DWORD(i)) == FF_TYPE_TEXT )
+    {
+    	ParamStruct.NewParameterValue = (DWORD)pValue;
+    }
+    else
+    {
+			memcpy(&ParamStruct.NewParameterValue, pValue, 4);
+		}
+    /*
+#else
+  	memcpy(&ParamStruct.NewParameterValue, pValue, 4);
+#endif
+		*/
+    
+    dwRet = pInstance->SetParameter(&ParamStruct);
 		if (dwRet == FF_FAIL)
     {
       //SetParameter failed, delete the instance

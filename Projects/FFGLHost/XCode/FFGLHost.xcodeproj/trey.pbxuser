@@ -1,7 +1,6 @@
 // !$*UTF8*$!
 {
 	2DA283F60AE9EA060030A4DD /* Project object */ = {
-		activeArchitecture = i386;
 		activeBuildConfigurationName = Release;
 		activeExecutable = 2DA286020AEE63D00030A4DD /* FFGLHost */;
 		activeTarget = 2DA286000AEE63D00030A4DD /* FFGLHost */;
@@ -10,6 +9,7 @@
 		);
 		breakpoints = (
 		);
+		breakpointsGroup = 2DC88B200AF417BF00199EB1 /* XCBreakpointsBucket */;
 		codeSenseManager = 2DA283FB0AE9EA060030A4DD /* Code sense */;
 		executables = (
 			2DA286020AEE63D00030A4DD /* FFGLHost */,
@@ -97,8 +97,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 225486588;
-			PBXWorkspaceStateSaveDate = 225486588;
+			PBXPerProjectTemplateStateSaveDate = 206342201;
+			PBXWorkspaceStateSaveDate = 206342201;
 		};
 		sourceControlManager = 2DA283FA0AE9EA060030A4DD /* Source Control */;
 		userBuildSettings = {
@@ -134,11 +134,10 @@
 	};
 	2DA284F30AEA03FA0030A4DD /* OSXMain.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1261, 13959}}";
-			sepNavSelRange = "{4957, 0}";
-			sepNavVisRange = "{4759, 627}";
+			sepNavIntBoundsRect = "{{0, 0}, {915, 6566}}";
+			sepNavSelRange = "{4464, 0}";
 			sepNavVisRect = "{{0, 1023}, {915, 517}}";
-			sepNavWindowFrame = "{{78, 225}, {954, 646}}";
+			sepNavWindowFrame = "{{135, 137}, {954, 646}}";
 		};
 	};
 	2DA286000AEE63D00030A4DD /* FFGLHost */ = {
@@ -149,12 +148,12 @@
 	};
 	2DA286020AEE63D00030A4DD /* FFGLHost */ = {
 		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
 		activeArgIndices = (
 		);
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -206,5 +205,11 @@
 			sepNavVisRect = "{{0, 0}, {586, 498}}";
 			sepNavWindowFrame = "{{84, 137}, {625, 627}}";
 		};
+	};
+	2DC88B200AF417BF00199EB1 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = "Project Breakpoints";
+		objects = (
+		);
 	};
 }

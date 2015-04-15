@@ -9,10 +9,10 @@ public FFGLPluginInstance
 {
 public:
   LinuxPluginInstance();
-
+  
   DWORD Load(const char *filename);
   DWORD Unload();
-
+  
   virtual ~LinuxPluginInstance();
 
 protected:
@@ -40,32 +40,34 @@ DWORD LinuxPluginInstance::Load(const char *fname)
   if (plugin_handle == NULL)
   {
     printf("dlopen: %s\n", dlerror());
-	Unload();
     return FF_FAIL;
   }
 
-  FF_Main_FuncPtr pFreeFrameMain =
+  FF_Main_FuncPtr pFreeFrameMain = 
     (FF_Main_FuncPtr)(unsigned)dlsym(plugin_handle, "plugMain");
-
+  
   if (pFreeFrameMain==NULL)
   {
     Unload(); //to undo same
     return FF_FAIL;
   }
-
+  
   m_ffPluginMain = pFreeFrameMain;
-
+  
   DWORD rval = InitPluginLibrary();
   if (rval!=FF_SUCCESS)
     return rval;
+  
+  rval = CreatePluginInstance();
 
-  return FF_SUCCESS;
+  return rval;
 }
 
 DWORD LinuxPluginInstance::Unload()
 {
+  DeletePluginInstance();
   DeinitPluginLibrary();
-
+  
   if (plugin_handle != NULL)
   {
     if (!dlclose(plugin_handle))

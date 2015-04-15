@@ -39,14 +39,12 @@ FFGLTextureStruct CreateOpenGLTexture(int textureWidth, int textureHeight);
   const char *FFGLTileFile       = "FFGLTile_debug.dll";
   const char *FFGLHeatFile       = "FFGLHeat_debug.dll";
   const char *FFGLLumaKeyFile    = "FFGLLumaKey_debug.dll";
-  const char *FFGLGradientsFile  = "FFGLGradients_debug.dll";
 #else
   const char *FFGLBrightnessFile = "FFGLBrightness.dll";
   const char *FFGLMirrorFile     = "FFGLMirror.dll";
   const char *FFGLTileFile       = "FFGLTile.dll";
   const char *FFGLHeatFile       = "FFGLHeat.dll";
   const char *FFGLLumaKeyFile    = "FFGLLumaKey.dll";
-  const char *FFGLGradientsFile  = "FFGLGradients.dll";
 #endif
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR szCmdLine, int iCmdShow)

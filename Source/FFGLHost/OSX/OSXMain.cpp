@@ -23,8 +23,8 @@ FFGLPluginInstance *plugin2 = NULL;
 
 //these are the default filenames used to load into the above plugin handlers
 #ifdef _DEBUG
-  const char *FFGLBrightnessFile = "FFGLBrightness_debug.bundle/Contents/MacOS/FFGLBrightness_debug";
-  const char *FFGLMirrorFile     = "FFGLMirror_debug.bundle/Contents/MacOS/FFGLMirror_debug";
+  const char *FFGLBrightnessFile = "AVFFGLParticles_debug.bundle/Contents/MacOS/AVFFGLParticles_debug";
+  const char *FFGLMirrorFile     = "AVFFGLBrightnessContrast_debug.bundle/Contents/MacOS/AVFFGLBrightnessContrast_debug";
   const char *FFGLTileFile       = "FFGLTile_debug.bundle/Contents/MacOS/FFGLTile_debug";
   const char *FFGLHeatFile       = "FFGLHeat_debug.bundle/Contents/MacOS/FFGLHeat_debug";
   const char *FFGLTimeFile       = "FFGLTime_debug.bundle/Contents/MacOS/FFGLTime_debug";
@@ -88,22 +88,11 @@ void FFGLHostVisibilityChange(int visible);
 float mouseX = 0.5;
 float mouseY = 0.5;
 
-//this locates the host binary and plugin binaries so that
-//they can be found when the host is launched from the finder
-void SetCorrectWorkingPath();
-
-
 int main(int argc, char **argv)
 {
-  //this sets the 'working' path to the folder that
-  //contains the plugins, for some reason this is necessary
-  //in order for the host to run when launched from the finder
-  //(but not necessary when launched from the terminal)
-  SetCorrectWorkingPath();
-  
   //load first plugin (does not instantiate!)
   plugin1 = FFGLPluginInstance::New();
-  if (plugin1->Load(FFGLMirrorFile)==FF_FAIL)
+  if (plugin1->Load(FFGLBrightnessFile)==FF_FAIL)
   {
     FFDebugMessage("Couldn't open plugin 1");
     return 0;
@@ -111,7 +100,7 @@ int main(int argc, char **argv)
 
   //init second plugin (does not instantiate!)
   plugin2 = FFGLPluginInstance::New();
-  if (plugin2->Load(FFGLTimeFile)==FF_FAIL)
+  if (plugin2->Load(FFGLMirrorFile)==FF_FAIL)
   {
     FFDebugMessage("Couldn't open plugin 2");
     return 0;
@@ -477,35 +466,4 @@ void AllocateInputTexture(int textureWidth, int textureHeight)
   
   t.HardwareWidth = glTextureWidth;
   t.HardwareHeight = glTextureHeight;
-}
-
-#include <CoreServices/CoreServices.h> //for CFBundle*
-#include <unistd.h> //for chdir()
-
-void SetCorrectWorkingPath()
-{
-  CFBundleRef mainBundle = CFBundleGetMainBundle();
-  CFURLRef url = CFBundleCopyExecutableURL(mainBundle);
-  if (!url)
-    return;
-  
-  char binPath[1024];
-  if (CFURLGetFileSystemRepresentation(url, true, (UInt8 *)binPath, sizeof(binPath)))
-  {
-  #ifdef _DEBUG
-    const char *binaryName = "FFGLHost_debug";
-  #else
-    const char *binaryName = "FFGLHost";
-  #endif
-  
-    int chopLength = strlen(binaryName);
-    
-    //cut the binary name off the end of the binPath
-    //string so that only the path remains
-    binPath[strlen(binPath)-chopLength] = 0;
-    
-    chdir(binPath);
-  }
-  
-  CFRelease(url);
 }

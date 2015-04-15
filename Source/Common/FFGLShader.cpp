@@ -2,7 +2,7 @@
 
 FFGLShader::FFGLShader()
 {
-  m_linkStatus = 0;
+  m_linkStatus = 0;  
   m_glProgram = 0;
   m_glVertexShader = 0;
   m_glFragmentShader = 0;
@@ -13,7 +13,7 @@ void FFGLShader::CreateGLResources()
 {
   if (m_extensions==NULL)
     return;
-
+	  
   if (m_glProgram==0)
     m_glProgram = m_extensions->glCreateProgramObjectARB();
 
@@ -69,9 +69,9 @@ int FFGLShader::UnbindShader()
 {
   if (m_extensions->ARB_shader_objects==0)
     return 0;
-
-  m_extensions->glUseProgramObjectARB(0);
-
+	
+  m_extensions->glUseProgramObjectARB(NULL);
+  
   return 1;
 }
 
