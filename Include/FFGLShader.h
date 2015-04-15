@@ -25,10 +25,17 @@ public:
 
 private:
   FFGLExtensions *m_extensions;
-  GLenum m_glProgram;
-  GLenum m_glVertexShader;
-  GLenum m_glFragmentShader;
-  GLuint m_linkStatus;
+#ifdef __APPLE__
+    void * m_glProgram;
+    void * m_glVertexShader;
+    void * m_glFragmentShader;
+    GLuint m_linkStatus;
+#else
+    GLenum m_glProgram;
+    GLenum m_glVertexShader;
+    GLenum m_glFragmentShader;
+    GLuint m_linkStatus;
+#endif
   
   void CreateGLResources();
 };

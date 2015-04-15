@@ -53,6 +53,9 @@
 
 //include the appropriate OpenGL headers for the compiler
 
+#ifdef __APPLE__
+#include <TargetConditionals.h>
+#endif
 
 #ifdef _WIN32
 

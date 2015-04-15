@@ -299,7 +299,13 @@ typedef void (APIENTRY *glRenderbufferStorageEXTPROC) (GLenum target, GLenum int
 
 /* GL types for handling shader object handles and characters */
 typedef char GLcharARB;		/* native character */
-typedef unsigned int GLhandleARB;	/* shader object handle */
+
+//typedef unsigned int GLhandleARB;	/* shader object handle */
+#if defined(__APPLE__)
+typedef void *GLhandleARB;
+#else
+typedef unsigned int GLhandleARB;
+#endif
 
 typedef void (APIENTRY * glDeleteObjectARBPROC) (GLhandleARB);
 typedef GLhandleARB (APIENTRY * glGetHandleARBPROC) (GLenum);
@@ -470,7 +476,7 @@ public:
 #endif
 
 private:
-  void *GetProcAddress(char *);
+  void *GetProcAddress(char const *);
   
   void InitMultitexture();
   void InitARBShaderObjects();

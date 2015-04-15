@@ -23,7 +23,7 @@
 
 // Buffer used by the default implementation of getParameterDisplay
 
-
+static char s_DisplayValue[32];
 
 ////////////////////////////////////////////////////////
 // CFreeFrameGLPlugin constructor and destructor
@@ -56,11 +56,12 @@ char* CFreeFrameGLPlugin::GetParameterDisplay(DWORD dwIndex)
     }
 		else
     {
-			char s_DisplayValue[15];
+			
 			float fValue;
 			memcpy(&fValue, &dwValue, 4);
-			memset(s_DisplayValue, 0, 15);
-			sprintf(s_DisplayValue, "%1.2f", fValue);
+			memset(s_DisplayValue, 0, 32);
+      		sprintf(s_DisplayValue, "%1.2f", fValue);
+      
 			return s_DisplayValue;
 		}
 	}
